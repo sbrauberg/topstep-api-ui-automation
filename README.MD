@@ -17,7 +17,7 @@
   - [Windows](https://www.digitalocean.com/community/tutorials/install-maven-mac-os)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 2.38.1 or higher
 - [Allure Report](https://allurereport.org/docs/gettingstarted-installation/) 2.27.0 or higher
-- Chromedriver v122.0.6261.112 or higher
+- [Chromedriver](https://googlechromelabs.github.io/chrome-for-testing/) v122.0.6261.112 or higher
 
   
 
