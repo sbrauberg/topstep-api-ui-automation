@@ -1,0 +1,1 @@
+{"uuid":"c9c4079f-9673-47d4-ba0d-dd111b9ef48c","name":"Scenario: Sending a PATCH request with an invalid user_id","children":["d1fa040e-5926-44d3-86f1-affc2da88d61"],"befores":[],"afters":[],"start":1710170814051,"stop":1710170814268}

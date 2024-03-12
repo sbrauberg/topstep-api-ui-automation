@@ -1,0 +1,1 @@
+{"uuid":"cffc06e2-df52-4487-b9e6-d1c7afb04ec9","name":"Scenario: Sending a PATCH request without Cookie and X-Xsrf-Token headers","children":["7665a38e-3bfb-4c0a-8b06-f3cea236719a"],"befores":[],"afters":[],"start":1710172309437,"stop":1710172309986}

@@ -1,0 +1,1 @@
+{"uuid":"3dd66196-96ae-4fbb-ae56-bfd7fbaba6d3","name":"Scenario: Negative case, API call without 'X-Xsrf-Token' header","children":["4223dc3f-812b-44eb-bb47-1b737ab8e7cd"],"befores":[],"afters":[],"start":1709931419416,"stop":1709931419624}
