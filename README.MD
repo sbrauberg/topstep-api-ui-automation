@@ -18,7 +18,7 @@
 
 # Reports
 - navigate to the repo directory `cd topstep-ui-api-automation`
-- run _`allure serve allure-results`_ 
+- run `allure serve allure-results` 
 
 # Running test suite:
 `mvn test -Dtest=CukesRunner.java`
