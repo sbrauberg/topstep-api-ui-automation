@@ -11,14 +11,20 @@
 
 # Prerequisites
 
-- [Java](https://www.java.com/en/download/help/download_options.htmlmvn) JDK 11 or higher
+- [Java](https://www.java.com/en/download/help/download_options.html) JDK 9 or higher
 - [Maven](https://maven.apache.org/install.html) 3.6.3 or higher 
+  - [MacOS](https://www.baeldung.com/install-maven-on-windows-linux-mac)
+  - [Windows](https://www.digitalocean.com/community/tutorials/install-maven-mac-os)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 2.38.1 or higher
 - [Allure Report](https://allurereport.org/docs/gettingstarted-installation/) 2.27.0 or higher
+- Chromedriver v122.0.6261.112 or higher
+
+  
+
+# Running test suite:
+`mvn test -Dtest=CukesRunner.java`
 
 # Reports
 - navigate to the repo directory `cd topstep-ui-api-automation`
 - run `allure serve allure-results` 
 
-# Running test suite:
-`mvn test -Dtest=CukesRunner.java`
