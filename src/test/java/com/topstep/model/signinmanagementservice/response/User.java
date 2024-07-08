@@ -54,6 +54,10 @@ public class User {
     private boolean show_daily_journal_modal;
     private String[] user_cohorts;
     private boolean has_live_tradovate_user;
+    private boolean hide_switch_practice_account_modal;
+    private boolean is_banned;
+    private String banned_reason;
+
 
     public int getId() {
         return id;
@@ -477,5 +481,29 @@ public class User {
 
     public void setHas_live_tradovate_user(boolean has_live_tradovate_user) {
         this.has_live_tradovate_user = has_live_tradovate_user;
+    }
+
+    public boolean isHide_switch_practice_account_modal() {
+        return hide_switch_practice_account_modal;
+    }
+
+    public void setHide_switch_practice_account_modal(boolean hide_switch_practice_account_modal) {
+        this.hide_switch_practice_account_modal = hide_switch_practice_account_modal;
+    }
+
+    public boolean isIs_banned() {
+        return is_banned;
+    }
+
+    public void setIs_banned(boolean is_banned) {
+        this.is_banned = is_banned;
+    }
+
+    public String getBanned_reason() {
+        return banned_reason;
+    }
+
+    public void setBanned_reason(String banned_reason) {
+        this.banned_reason = banned_reason;
     }
 }

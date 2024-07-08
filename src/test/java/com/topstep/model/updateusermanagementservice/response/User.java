@@ -28,6 +28,7 @@ public class User {
     private boolean coach_t_modal_viewed;
     private int mobile_verification_attempts;
     private boolean affiliate;
+    private boolean hide_switch_practice_account_modal;
 
     public int getId() {
         return id;
@@ -243,6 +244,14 @@ public class User {
 
     public void setAffiliate(boolean affiliate) {
         this.affiliate = affiliate;
+    }
+
+    public boolean isHide_switch_practice_account_modal() {
+        return hide_switch_practice_account_modal;
+    }
+
+    public void setHide_switch_practice_account_modal(boolean hide_switch_practice_account_modal) {
+        this.hide_switch_practice_account_modal = hide_switch_practice_account_modal;
     }
 }
 
